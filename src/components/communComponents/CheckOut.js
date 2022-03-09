@@ -1,8 +1,8 @@
 import React,{useRef, useState} from 'react'
 import classes from '../../css/communComponents/CheckOut.module.css'
 
-const isEmpty=(value)=>{value.trim() ===''}
-const isNotPostal=(value)=>{value.trim().length!==5}
+const isEmpty=(value)=>value.trim() ===''
+const isNotPostal=(value)=>value.trim().length!==5
 
 
 const CheckOut = (props) => {
